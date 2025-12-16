@@ -31,9 +31,8 @@ Real-time, PM2-managed bot that mirrors **stake/unstake** actions from chosen Bi
 ## 🧱 Architecture
 
 ```
-<img width="600" height="919" alt="image" src="https://github.com/user-attachments/assets/360cb95e-eb1b-467b-8e35-601a6b92ed22" />
-<img width="600" height="919" alt="image" src="https://github.com/user-attachments/assets/360cb95e-eb1b-467b-8e35-601a6b92ed22" />
-
+<img width="626" height="937" alt="image" src="https://github.com/user-attachments/assets/61c21d73-4d6a-4311-9df3-a9e5ef75cb8d" />
+<img width="626" height="937" alt="image" src="https://github.com/user-attachments/assets/61c21d73-4d6a-4311-9df3-a9e5ef75cb8d" />
 ```
 
 ## Install

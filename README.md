@@ -30,10 +30,8 @@ Real-time, PM2-managed bot that mirrors **stake/unstake** actions from chosen Bi
 
 ## 🧱 Architecture
 
-```
 <img width="626" height="937" alt="image" src="https://github.com/user-attachments/assets/61c21d73-4d6a-4311-9df3-a9e5ef75cb8d" />
 <img width="626" height="937" alt="image" src="https://github.com/user-attachments/assets/61c21d73-4d6a-4311-9df3-a9e5ef75cb8d" />
-```
 
 ## Install
 Prereqs: Python 3.10+, Node.js (for PM2), btcli configured, and (recommended) a local subtensor node exposing WebSocket ws://127.0.0.1:9944

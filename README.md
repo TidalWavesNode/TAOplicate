@@ -31,17 +31,9 @@ Real-time, PM2-managed bot that mirrors **stake/unstake** actions from chosen Bi
 ## 🧱 Architecture
 
 ```
-flowchart LR
-  A[Local Subtensor Node (ws://127.0.0.1:9944)] -->|StakeAdded / StakeRemoved| E{Event Listener}
-  B[Finney WS Backup (wss://finney.subtensor.ai:443)] -->|If local fails| E
-  E --> Q[(Event Queue)]
-  Q --> L[Logic: filter watched hotkeys and calculate amount (mode/weights)]
-  L --> S[Safety: low balance pause/resume]
-  S -->|ok| T[btcli stake add/remove]
-  S -->|paused| D1[Discord: pause alert]
-  T --> D2[Discord: live embed]
-  T --> DB[(SQLite trades)]
-  CR[00:00 UTC Scheduler] --> DS[Discord: daily summary with wallet balance + trend]
+<img width="600" height="919" alt="image" src="https://github.com/user-attachments/assets/360cb95e-eb1b-467b-8e35-601a6b92ed22" />
+<img width="600" height="919" alt="image" src="https://github.com/user-attachments/assets/360cb95e-eb1b-467b-8e35-601a6b92ed22" />
+
 ```
 
 ## Install
